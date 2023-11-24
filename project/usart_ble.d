@@ -2,7 +2,7 @@
 .\usart_ble.o: ..\inc\usart_ble.h
 .\usart_ble.o: ..\inc\stm32f4xx.h
 .\usart_ble.o: ..\lib\CMSIS\inc\core_cm4.h
-.\usart_ble.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\usart_ble.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\usart_ble.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\usart_ble.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\usart_ble.o: ..\lib\CMSIS\inc\core_cm4_simd.h
@@ -36,4 +36,4 @@
 .\usart_ble.o: ..\lib\inc\stm32f4xx_wwdg.h
 .\usart_ble.o: ..\lib\inc\stm32f4xx_misc.h
 .\usart_ble.o: ..\inc\typedef.h
-.\usart_ble.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\String.h
+.\usart_ble.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\String.h

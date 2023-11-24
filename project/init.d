@@ -2,7 +2,7 @@
 .\init.o: ..\inc\init.h
 .\init.o: ..\inc\stm32f4xx.h
 .\init.o: ..\lib\CMSIS\inc\core_cm4.h
-.\init.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\init.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\init.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\init.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\init.o: ..\lib\CMSIS\inc\core_cm4_simd.h
@@ -61,7 +61,7 @@
 .\init.o: ..\lib\usb_host_lib\Core\inc\usbh_def.h
 .\init.o: ..\inc\usb_user\usbh_conf.h
 .\init.o: ..\inc\usb_user\usbh_usr.h
-.\init.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\init.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\init.o: ..\lib\usb_host_lib\Class\HID\inc\usbh_hid_core.h
 .\init.o: ..\lib\usb_host_lib\Core\inc\usbh_stdreq.h
 .\init.o: ..\lib\usb_host_lib\Core\inc\usbh_ioreq.h

@@ -3,7 +3,7 @@
 .\usb_core.o: ..\inc\usb_user\usb_conf.h
 .\usb_core.o: ..\inc\stm32f4xx.h
 .\usb_core.o: ..\lib\CMSIS\inc\core_cm4.h
-.\usb_core.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\usb_core.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\usb_core.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\usb_core.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\usb_core.o: ..\lib\CMSIS\inc\core_cm4_simd.h

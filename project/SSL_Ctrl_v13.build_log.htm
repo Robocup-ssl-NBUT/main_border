@@ -3,49 +3,60 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Tool Versions:</h2>
-IDE-Version: ¦ÌVision V5.23.0.0
-Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: 1 Administrator, 1, LIC=VGXG8-3EW7E-JJ16S-L206D-1HVE0-DD8NM
+IDE-Version: ¦ÌVision V5.22.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: f Administrator, f, LIC=Q7GVE-52KTH-792G1-C830I-CYLSP-QCVZ6
  
 Tool Versions:
-Toolchain:       MDK-ARM Plus  Version: 5.23
-Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+Toolchain:       MDK-ARM Professional  Version: 5.22
+Toolchain Path:  E:\Keil_v5\ARM\ARMCC\Bin
 C Compiler:      Armcc.exe V5.06 update 4 (build 422)
 Assembler:       Armasm.exe V5.06 update 4 (build 422)
 Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
 Library Manager: ArmAr.exe V5.06 update 4 (build 422)
 Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
-CPU DLL:         SARMCM3.DLL V5.23
-Dialog DLL:      DCM.DLL V1.15.0.0
+CPU DLL:         SARMCM3.DLL V5.22
+Dialog DLL:      DCM.DLL V1.13.9.0
 Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
-Dialog DLL:      TCM.DLL V1.27.0.0
+Dialog DLL:      TCM.DLL V1.21.0.0
  
 <h2>Project:</h2>
-C:\Users\Administrator\Documents\Tencent Files\1017160846\FileRecv\SW-00002-CtrlBrd_v1.3_nodog\project\SSL_Ctrl_v13.uvprojx
-Project File Date:  08/22/2022
+C:\Users\Administrator\Desktop\1_SW-00002-CtrlBrd_v1.3_nodog\project\SSL_Ctrl_v13.uvprojx
+Project File Date:  11/06/2023
 
 <h2>Output:</h2>
-*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
-*** Note: Rebuilding project, since 'Options->Output->Create Batch File' is selected.
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'E:\Keil_v5\ARM\ARMCC\Bin'
 Rebuild target 'SSL_Ctrl_v13'
 *** Scatter Error: no default 'Read/Write' range selected
 compiling nrf24l01.c...
 compiling nrf24l01_drv.c...
 compiling packet.c...
-..\src\packet.c(396): warning:  #177-D: variable "changeFlag"  was declared but never referenced
+..\src\packet.c(122): warning:  #177-D: variable "last_send_infra"  was declared but never referenced
+        static int last_send_infra = 0;
+..\src\packet.c(124): warning:  #550-D: variable "to_shoot"  was set but never used
+        static int to_shoot = 0;
+..\src\packet.c(125): warning:  #550-D: variable "to_chip"  was set but never used
+        static int to_chip = 0;
+..\src\packet.c(129): warning:  #550-D: variable "last_finish_shoot"  was set but never used
+        static int last_finish_shoot = 0;
+..\src\packet.c(130): warning:  #177-D: variable "last_finish_chip"  was declared but never referenced
+        static int last_finish_chip = 0;
+..\src\packet.c(480): warning:  #177-D: variable "changeFlag"  was declared but never referenced
         bool changeFlag = false;
-..\src\packet.c: 1 warning, 0 errors
+..\src\packet.c: 6 warnings, 0 errors
 compiling param.c...
 ..\src\param.c(155): warning:  #177-D: variable "sum"  was declared but never referenced
         u8 sum;
 ..\src\param.c: 1 warning, 0 errors
 compiling pid.c...
 compiling robot.c...
-..\src\robot.c(490): warning:  #223-D: function "AT_Set_device_name_cmd" declared implicitly
+..\src\robot.c(402): warning:  #223-D: function "do_acc_handle_move" declared implicitly
+                                                                 do_acc_handle_move(0, 0,100);
+..\src\robot.c(509): warning:  #223-D: function "AT_Set_device_name_cmd" declared implicitly
                                                  rtn = AT_Set_device_name_cmd(bluetooth_name);
-..\src\robot.c(517): warning:  #223-D: function "AT_Set_device_name_code" declared implicitly
+..\src\robot.c(536): warning:  #223-D: function "AT_Set_device_name_code" declared implicitly
                                                  rtn = AT_Set_device_name_code(bluetooth_code);
-..\src\robot.c: 2 warnings, 0 errors
+..\src\robot.c: 3 warnings, 0 errors
 compiling stm32f4xx_it.c...
 compiling system_stm32f4xx.c...
 compiling timer.c...
@@ -165,16 +176,16 @@ compiling usbd_cdc_if_template.c...
 compiling usb_dcd.c...
 compiling usb_dcd_int.c...
 linking...
-Program Size: Code=71660 RO-data=2556 RW-data=904 ZI-data=20152  
+Program Size: Code=71948 RO-data=2556 RW-data=936 ZI-data=20152  
 FromELF: creating hex file...
-".\SSL_Ctrl_v13.axf" - 0 Error(s), 23 Warning(s).
+".\SSL_Ctrl_v13.axf" - 0 Error(s), 29 Warning(s).
 
 <h2>Collection of Component include folders:</h2>
-  .\RTE\_SSL_Ctrl_v13
-  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+  C:\Users\Administrator\Desktop\1_SW-00002-CtrlBrd_v1.3_nodog\project\RTE\_SSL_Ctrl_v13
+  E:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
 
 <h2>Collection of Component Files used:</h2>
-Build Time Elapsed:  00:00:40
+Build Time Elapsed:  00:00:39
 </pre>
 </body>
 </html>

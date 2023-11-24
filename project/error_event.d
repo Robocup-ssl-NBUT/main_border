@@ -2,7 +2,7 @@
 .\error_event.o: ..\inc\Error_event.h
 .\error_event.o: ..\inc\stm32f4xx.h
 .\error_event.o: ..\lib\CMSIS\inc\core_cm4.h
-.\error_event.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\error_event.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\error_event.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\error_event.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\error_event.o: ..\lib\CMSIS\inc\core_cm4_simd.h

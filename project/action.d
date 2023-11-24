@@ -1,12 +1,12 @@
 .\action.o: ..\src\action.c
-.\action.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\action.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\action.o: ..\lib\CMSIS\inc\arm_math.h
 .\action.o: ..\lib\CMSIS\inc\core_cm4.h
-.\action.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\action.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\action.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\action.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\action.o: ..\lib\CMSIS\inc\core_cm4_simd.h
-.\action.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\action.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\action.o: ..\inc\action.h
 .\action.o: ..\inc\typedef.h
 .\action.o: ..\inc\packet.h

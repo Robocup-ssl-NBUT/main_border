@@ -6,7 +6,7 @@
 .\usbh_hid_core.o: ..\inc\usb_user\usb_conf.h
 .\usbh_hid_core.o: ..\inc\stm32f4xx.h
 .\usbh_hid_core.o: ..\lib\CMSIS\inc\core_cm4.h
-.\usbh_hid_core.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\usbh_hid_core.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\usbh_hid_core.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\usbh_hid_core.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\usbh_hid_core.o: ..\lib\CMSIS\inc\core_cm4_simd.h

@@ -247,15 +247,15 @@ int do_dribbler( int dribbler )
     }
     else if(dribbler_temp == 1)
     {
-        g_robot.dribbler = MOTOR_PWM_PERIOD * 0.4;
+        g_robot.dribbler = MOTOR_PWM_PERIOD * 0.5;
     }
     else if(dribbler_temp == 2)
     {
-        g_robot.dribbler = MOTOR_PWM_PERIOD * 0.5;
+        g_robot.dribbler = MOTOR_PWM_PERIOD * 0.6;
     }
     else if(dribbler_temp == 3)
     {
-        g_robot.dribbler = MOTOR_PWM_PERIOD * 0.75;
+        g_robot.dribbler = MOTOR_PWM_PERIOD * 0.7;
     }
 	else
 	{

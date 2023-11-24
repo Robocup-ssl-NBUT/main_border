@@ -3,7 +3,7 @@
 .\hm_bluetooth.o: ..\inc\usart_ble.h
 .\hm_bluetooth.o: ..\inc\stm32f4xx.h
 .\hm_bluetooth.o: ..\lib\CMSIS\inc\core_cm4.h
-.\hm_bluetooth.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\hm_bluetooth.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\hm_bluetooth.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\hm_bluetooth.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\hm_bluetooth.o: ..\lib\CMSIS\inc\core_cm4_simd.h
@@ -42,4 +42,4 @@
 .\hm_bluetooth.o: ..\inc\nRF24L01_Reg.h
 .\hm_bluetooth.o: ..\inc\gpio.h
 .\hm_bluetooth.o: ..\inc\Timer.h
-.\hm_bluetooth.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\hm_bluetooth.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

@@ -2,7 +2,7 @@
 .\factory.o: ..\inc\factory.h
 .\factory.o: ..\inc\stm32f4xx.h
 .\factory.o: ..\lib\CMSIS\inc\core_cm4.h
-.\factory.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\factory.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\factory.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\factory.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\factory.o: ..\lib\CMSIS\inc\core_cm4_simd.h

@@ -2,7 +2,7 @@
 .\motor.o: ..\inc\motor.h
 .\motor.o: ..\inc\stm32f4xx.h
 .\motor.o: ..\lib\CMSIS\inc\core_cm4.h
-.\motor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\motor.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\motor.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\motor.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\motor.o: ..\lib\CMSIS\inc\core_cm4_simd.h

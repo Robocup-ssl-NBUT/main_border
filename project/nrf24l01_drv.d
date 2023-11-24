@@ -2,7 +2,7 @@
 .\nrf24l01_drv.o: ..\inc\nRF24L01.h
 .\nrf24l01_drv.o: ..\inc\stm32f4xx.h
 .\nrf24l01_drv.o: ..\lib\CMSIS\inc\core_cm4.h
-.\nrf24l01_drv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\nrf24l01_drv.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\nrf24l01_drv.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\nrf24l01_drv.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\nrf24l01_drv.o: ..\lib\CMSIS\inc\core_cm4_simd.h

@@ -2,7 +2,7 @@
 .\stm32f4xx_cryp_aes.o: ..\lib\inc\stm32f4xx_cryp.h
 .\stm32f4xx_cryp_aes.o: ..\inc\stm32f4xx.h
 .\stm32f4xx_cryp_aes.o: ..\lib\CMSIS\inc\core_cm4.h
-.\stm32f4xx_cryp_aes.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\stm32f4xx_cryp_aes.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\stm32f4xx_cryp_aes.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\stm32f4xx_cryp_aes.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\stm32f4xx_cryp_aes.o: ..\lib\CMSIS\inc\core_cm4_simd.h

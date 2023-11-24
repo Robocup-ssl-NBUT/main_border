@@ -1,9 +1,9 @@
 .\comm.o: ..\src\comm.c
-.\comm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\comm.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\comm.o: ..\inc\packet.h
 .\comm.o: ..\inc\stm32f4xx.h
 .\comm.o: ..\lib\CMSIS\inc\core_cm4.h
-.\comm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\comm.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\comm.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\comm.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\comm.o: ..\lib\CMSIS\inc\core_cm4_simd.h
@@ -50,4 +50,4 @@
 .\comm.o: ..\inc\nrf24l01.h
 .\comm.o: ..\inc\action.h
 .\comm.o: ..\inc\usart_ble.h
-.\comm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\comm.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

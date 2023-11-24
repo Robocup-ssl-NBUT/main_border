@@ -2,7 +2,7 @@
 .\timer.o: ..\inc\timer.h
 .\timer.o: ..\inc\stm32f4xx.h
 .\timer.o: ..\lib\CMSIS\inc\core_cm4.h
-.\timer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\timer.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\timer.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\timer.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\timer.o: ..\lib\CMSIS\inc\core_cm4_simd.h

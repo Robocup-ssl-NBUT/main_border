@@ -2,7 +2,7 @@
 .\nrf24l01.o: ..\inc\nrf24l01.h
 .\nrf24l01.o: ..\inc\stm32f4xx.h
 .\nrf24l01.o: ..\lib\CMSIS\inc\core_cm4.h
-.\nrf24l01.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\nrf24l01.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\nrf24l01.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\nrf24l01.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\nrf24l01.o: ..\lib\CMSIS\inc\core_cm4_simd.h

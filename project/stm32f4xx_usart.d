@@ -2,7 +2,7 @@
 .\stm32f4xx_usart.o: ..\lib\inc\stm32f4xx_usart.h
 .\stm32f4xx_usart.o: ..\inc\stm32f4xx.h
 .\stm32f4xx_usart.o: ..\lib\CMSIS\inc\core_cm4.h
-.\stm32f4xx_usart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\stm32f4xx_usart.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\stm32f4xx_usart.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\stm32f4xx_usart.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\stm32f4xx_usart.o: ..\lib\CMSIS\inc\core_cm4_simd.h

@@ -1,7 +1,7 @@
 .\i2c.o: ..\src\i2c.c
 .\i2c.o: ..\inc\stm32f4xx.h
 .\i2c.o: ..\lib\CMSIS\inc\core_cm4.h
-.\i2c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\i2c.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\i2c.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\i2c.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\i2c.o: ..\lib\CMSIS\inc\core_cm4_simd.h

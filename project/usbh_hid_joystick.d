@@ -7,7 +7,7 @@
 .\usbh_hid_joystick.o: ..\inc\usb_user\usb_conf.h
 .\usbh_hid_joystick.o: ..\inc\stm32f4xx.h
 .\usbh_hid_joystick.o: ..\lib\CMSIS\inc\core_cm4.h
-.\usbh_hid_joystick.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\usbh_hid_joystick.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\usbh_hid_joystick.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\usbh_hid_joystick.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\usbh_hid_joystick.o: ..\lib\CMSIS\inc\core_cm4_simd.h
@@ -48,6 +48,6 @@
 .\usbh_hid_joystick.o: ..\lib\usb_otg_driver\inc\usb_bsp.h
 .\usbh_hid_joystick.o: ..\lib\usb_host_lib\Core\inc\usbh_ioreq.h
 .\usbh_hid_joystick.o: ..\lib\usb_host_lib\Core\inc\usbh_hcs.h
-.\usbh_hid_joystick.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\usbh_hid_joystick.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\usbh_hid_joystick.o: ..\inc\gpio.h
 .\usbh_hid_joystick.o: ..\inc\typedef.h

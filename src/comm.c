@@ -250,8 +250,7 @@ int do_packet_process( unsigned char *data, int len )
 		on_robot_command( &packet );
 	}
 	
-	else if (g_robot.mode == PID_TUNE_MODE)
-	{
+	else if (g_robot.mode == PID_TUNE_MODE){
 		//BEEP_OFF();
 		packet_robot_t packet;
 		memset( &packet, 0, sizeof( packet ) );

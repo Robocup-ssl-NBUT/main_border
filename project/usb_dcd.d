@@ -4,7 +4,7 @@
 .\usb_dcd.o: ..\inc\usb_user\usb_conf.h
 .\usb_dcd.o: ..\inc\stm32f4xx.h
 .\usb_dcd.o: ..\lib\CMSIS\inc\core_cm4.h
-.\usb_dcd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\usb_dcd.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\usb_dcd.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\usb_dcd.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\usb_dcd.o: ..\lib\CMSIS\inc\core_cm4_simd.h

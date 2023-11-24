@@ -6,7 +6,7 @@
 .\pid.o: ..\inc\gpio.h
 .\pid.o: ..\inc\stm32f4xx.h
 .\pid.o: ..\lib\CMSIS\inc\core_cm4.h
-.\pid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\pid.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\pid.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\pid.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\pid.o: ..\lib\CMSIS\inc\core_cm4_simd.h

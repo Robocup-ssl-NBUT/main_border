@@ -378,14 +378,51 @@ void do_run(void)
 					}
 				}
 				break;
+			}			
+			case JOYSTICK_MODE:{
+				static int test_time = 0;
+				LED_POWER_ON_HIGH();
+				set_heart_led(0, 100, 0, 0x1f);//°?greenÉ«			
+				test_time++;
+				COMM_LED_ON();
+				wait_ms(2000);
+			  COMM_LED_OFF();	
+//				set_test_shooter();
+        do_dribbler(3);//ÉèÖÃ¿ØÖÆµµÎ»
+				wait_ms(2000);
+				do_dribbler(0);
+				wait_ms(1000);
+				do_shoot(20, 0);//Æ½Éä
+		        wait_ms(2000);
+				do_chip(0, 20); //ÌôÉä
+                wait_ms(2000);				
+                if(test_time == 1)
+                {
+									
+								 do_acc_handle_move(0, 0,100);
+								 wait_ms(2000);
+									do_acc_handle_move(0, 0,-100);
+									wait_ms(2000);
+								do_acc_handle_move(0, 0,0);
+								test_time = 0;
+                }
+//				else if(test_time == 2)
+//					{
+//					 do_acc_handle_move(0, 0,-100);
+//				     wait_ms(2000);
+//				     do_acc_handle_move(0, 0,0);
+//					 test_time = 0;
+//					}
+//                   	
+				break;
 			}
 			/*±±Í¨ÓÎÏ·ÊÖ±ú¿ØÖÆ*/
-			case JOYSTICK_MODE:
+			/*case JOYSTICK_MODE:
 			{
 				#ifdef ENABLE_JOYSTICK_CONTROL  
 					LED_POWER_ON_HIGH();
 					set_heart_led(0, 100, 0, 0x1f);//ÂÌÉ«
-					/* Host Task handler */
+					 Host Task handler *//*
 					USBH_Process(&USB_OTG_Core_dev , &USB_Host);
 					if(HID_JOYSTICK_Data.packet_valid == 1)
 					{
@@ -411,7 +448,7 @@ void do_run(void)
 				
 					break;
 				#endif
-			}
+			}*/
 			case SELFTEST_MODE: //×Ô¼ìÄ£Ê½
 			{    
 				static int test_time = 0;

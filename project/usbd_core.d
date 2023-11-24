@@ -5,7 +5,7 @@
 .\usbd_core.o: ..\inc\usb_user\usb_conf.h
 .\usbd_core.o: ..\inc\stm32f4xx.h
 .\usbd_core.o: ..\lib\CMSIS\inc\core_cm4.h
-.\usbd_core.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\usbd_core.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\usbd_core.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\usbd_core.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\usbd_core.o: ..\lib\CMSIS\inc\core_cm4_simd.h

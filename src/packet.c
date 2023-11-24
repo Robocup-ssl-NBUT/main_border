@@ -131,15 +131,21 @@ int packet(char *q)
 
 	static int m = 0;
 	static int n = 5;
+	static int count = 0;
+	static int shoot_count = 1;
+	static int s_count = 1;
+	static bool is_boost = false;
+	static bool is_send = false;
+	static bool is_st_send = false;
 
     now_infra = is_ball_detected();
-	bat_v = get_bat_v();
-	cap_v = get_cap_v();
+	bat_v = get_bat_v()* BAT_V_ADC_GAIN;
+	cap_v = get_cap_v()* CAP_V_ADC_GAIN;
 
 	g_robot.bat_v = bat_v;
 	g_robot.cap_v = cap_v;
 
-	if(g_robot.bat_v == 0xFF)
+	/*if(g_robot.bat_v == 0xFF)
 	{
 		g_robot.bat_v = 0xFE;
 	}
@@ -148,7 +154,7 @@ int packet(char *q)
 	if(g_robot.cap_v == 0xFF)
 	{
 		g_robot.cap_v  = 0xFE;
-	}
+	}*/
 
 	/* 首先，射门命令如果已提交，设置to_shoot */
 	if(shooter == 0x02){ //shoot
@@ -159,14 +165,14 @@ int packet(char *q)
     	shooter = 0x00;
 	}
 	
-    if(now_infra == 0){
-		/* 如果现在嘴里没球，但shoot命令有，说明球已经踢出去了 */
+    /*if(now_infra == 0){
+		// 如果现在嘴里没球，但shoot命令有，说明球已经踢出去了 
         if(to_shoot == 1){
             finish_shoot = 1;
             to_shoot = 0;
 			n = 0;
 			m++;
-			packet_flag = 1;
+			//packet_flag = 1;
         }
 		
         if(to_chip == 1)
@@ -175,10 +181,10 @@ int packet(char *q)
             to_chip = 0;
 			n = 0;
 			m++;
-			packet_flag = 1;
+			//packet_flag = 1;
         }    
 		
-		/* ENABLE_INFRA_BEEP红外叫声 */
+		// ENABLE_INFRA_BEEP红外叫声 
 		#ifdef ENABLE_INFRA_BEEP
 			if(do_power_monitor() == 0)	BEEP_OFF();
 		#endif
@@ -186,9 +192,9 @@ int packet(char *q)
 		#ifdef ENABLE_INFRA_BEEP
 			BEEP_ON();
 		#endif
-	}
+	}*/
 
-	/* n记录每个packet发送时的次数, 每个新发的包执行5次 */
+	/* n记录每个packet发送时的次数, 每个新发的包执行5次 *//*
 	if(n > 5){
 		if((last_infra != now_infra)){
 			n = 1;
@@ -221,6 +227,63 @@ int packet(char *q)
 		last_finish_chip = finish_chip;
 		last_send_infra = now_infra;
 		packet_flag = 1;
+	}*/
+	
+	if(/*now_infra == 1 &&*/  to_shoot == 1 &&cap_v < 126 && cap_v > 20 && !is_boost){ 
+		finish_shoot = 1;
+		to_shoot = 0;
+		//n = 1;
+		is_boost = true;
+		shoot_count = 1;
+		s_count = 1;
+		m++;
+	}else if(/*now_infra == 1 &&  */to_chip == 1 &&cap_v < 126 && cap_v > 20 && !is_boost){ 
+		finish_chip = 1;
+		to_chip = 0;
+		//n = 1;
+		is_boost = true;
+		shoot_count = 1;
+		s_count = 1;
+		m++;
+	}
+	s_count++;
+	if((cap_v > 130 && s_count) || s_count > 100)is_boost = false;
+	
+	
+	if((last_infra != now_infra)){
+		is_send = true;
+		n = 1;
+		m++;
+	}
+	if(finish_chip ==1 || finish_shoot == 1){
+		is_st_send = true;
+		// n = 1;
+		m++;
+	}
+	
+	if(is_send||is_st_send){
+		packet_flag = 1;
+		if(is_send)n++;
+		if(is_st_send)shoot_count++;
+		if(n >= 5){
+			is_send = false;
+			n = 1;
+		}
+		if(shoot_count >= 5){
+			if(is_st_send){
+				finish_shoot = 0;
+				finish_chip = 0;
+				shoot_count = 1;
+				is_st_send = false;
+			}
+		}
+	}else{
+		count++;
+		packet_flag = 0;
+		if(count > 100){
+			packet_flag = 1;
+			count = 0;
+		}
 	}
 
 	if(m == 127){	
@@ -231,10 +294,12 @@ int packet(char *q)
     q[1] = 0x02;
     q[2] = g_robot.num & 0x0F;
 	q[3] = (now_infra << 6) + (finish_shoot << 5) + (finish_chip << 4);
-	q[4] = g_robot.bat_v;
-	q[5] = g_robot.cap_v;
+	q[4] = bat_v;
+	q[5] = cap_v;
 
 	last_infra = now_infra;
+	// last_finish_shoot = finish_chip;
+	// last_finish_shoot = finish_shoot;
 
 	return 0;
 }

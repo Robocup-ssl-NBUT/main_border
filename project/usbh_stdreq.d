@@ -3,7 +3,7 @@
 .\usbh_stdreq.o: ..\inc\usb_user\usb_conf.h
 .\usbh_stdreq.o: ..\inc\stm32f4xx.h
 .\usbh_stdreq.o: ..\lib\CMSIS\inc\core_cm4.h
-.\usbh_stdreq.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\usbh_stdreq.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\usbh_stdreq.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\usbh_stdreq.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\usbh_stdreq.o: ..\lib\CMSIS\inc\core_cm4_simd.h

@@ -2,7 +2,7 @@
 .\packet.o: ..\inc\packet.h
 .\packet.o: ..\inc\stm32f4xx.h
 .\packet.o: ..\lib\CMSIS\inc\core_cm4.h
-.\packet.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\packet.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\packet.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\packet.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\packet.o: ..\lib\CMSIS\inc\core_cm4_simd.h
@@ -45,5 +45,5 @@
 .\packet.o: ..\inc\param.h
 .\packet.o: ..\inc\misc.h
 .\packet.o: ..\inc\timer.h
-.\packet.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\packet.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\packet.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\packet.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h

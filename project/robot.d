@@ -1,9 +1,9 @@
 .\robot.o: ..\src\robot.c
-.\robot.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\robot.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\robot.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\robot.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\robot.o: ..\lib\CMSIS\inc\arm_math.h
 .\robot.o: ..\lib\CMSIS\inc\core_cm4.h
-.\robot.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\robot.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\robot.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\robot.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\robot.o: ..\lib\CMSIS\inc\core_cm4_simd.h
@@ -65,7 +65,7 @@
 .\robot.o: ..\lib\usb_host_lib\Core\inc\usbh_def.h
 .\robot.o: ..\inc\usb_user\usbh_conf.h
 .\robot.o: ..\inc\usb_user\usbh_usr.h
-.\robot.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\robot.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\robot.o: ..\lib\usb_host_lib\Class\HID\inc\usbh_hid_core.h
 .\robot.o: ..\lib\usb_host_lib\Core\inc\usbh_stdreq.h
 .\robot.o: ..\lib\usb_host_lib\Core\inc\usbh_ioreq.h

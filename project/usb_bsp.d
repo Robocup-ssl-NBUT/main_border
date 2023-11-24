@@ -4,7 +4,7 @@
 .\usb_bsp.o: ..\inc\usb_user\usb_conf.h
 .\usb_bsp.o: ..\inc\stm32f4xx.h
 .\usb_bsp.o: ..\lib\CMSIS\inc\core_cm4.h
-.\usb_bsp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\usb_bsp.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\usb_bsp.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\usb_bsp.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\usb_bsp.o: ..\lib\CMSIS\inc\core_cm4_simd.h

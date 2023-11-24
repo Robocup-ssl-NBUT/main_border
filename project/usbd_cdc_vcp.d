@@ -2,7 +2,7 @@
 .\usbd_cdc_vcp.o: ..\inc\usb_user\usbd_cdc_vcp.h
 .\usbd_cdc_vcp.o: ..\inc\stm32f4xx.h
 .\usbd_cdc_vcp.o: ..\lib\CMSIS\inc\core_cm4.h
-.\usbd_cdc_vcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\usbd_cdc_vcp.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\usbd_cdc_vcp.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\usbd_cdc_vcp.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\usbd_cdc_vcp.o: ..\lib\CMSIS\inc\core_cm4_simd.h

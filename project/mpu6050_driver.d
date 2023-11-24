@@ -3,7 +3,7 @@
 .\mpu6050_driver.o: ..\inc\I2c.h
 .\mpu6050_driver.o: ..\inc\stm32f4xx.h
 .\mpu6050_driver.o: ..\lib\CMSIS\inc\core_cm4.h
-.\mpu6050_driver.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\mpu6050_driver.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\mpu6050_driver.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\mpu6050_driver.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\mpu6050_driver.o: ..\lib\CMSIS\inc\core_cm4_simd.h
@@ -42,4 +42,4 @@
 .\mpu6050_driver.o: ..\inc\nrf24l01_drv.h
 .\mpu6050_driver.o: ..\inc\nRF24L01_Reg.h
 .\mpu6050_driver.o: ..\inc\gpio.h
-.\mpu6050_driver.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\mpu6050_driver.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

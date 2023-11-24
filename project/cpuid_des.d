@@ -1,10 +1,10 @@
 .\cpuid_des.o: ..\src\Cpuid_des.c
-.\cpuid_des.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\cpuid_des.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\cpuid_des.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\cpuid_des.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\cpuid_des.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\cpuid_des.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\cpuid_des.o: ..\inc\stm32f4xx.h
 .\cpuid_des.o: ..\lib\CMSIS\inc\core_cm4.h
-.\cpuid_des.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\cpuid_des.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\cpuid_des.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\cpuid_des.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\cpuid_des.o: ..\lib\CMSIS\inc\core_cm4_simd.h

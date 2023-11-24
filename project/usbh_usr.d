@@ -6,7 +6,7 @@
 .\usbh_usr.o: ..\inc\usb_user\usb_conf.h
 .\usbh_usr.o: ..\inc\stm32f4xx.h
 .\usbh_usr.o: ..\lib\CMSIS\inc\core_cm4.h
-.\usbh_usr.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\usbh_usr.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\usbh_usr.o: ..\lib\CMSIS\inc\core_cmInstr.h
 .\usbh_usr.o: ..\lib\CMSIS\inc\core_cmFunc.h
 .\usbh_usr.o: ..\lib\CMSIS\inc\core_cm4_simd.h
@@ -43,7 +43,7 @@
 .\usbh_usr.o: ..\lib\usb_otg_driver\inc\usb_defines.h
 .\usbh_usr.o: ..\lib\usb_host_lib\Core\inc\usbh_def.h
 .\usbh_usr.o: ..\inc\usb_user\usbh_conf.h
-.\usbh_usr.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\usbh_usr.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\usbh_usr.o: ..\lib\usb_host_lib\Class\HID\inc\usbh_hid_mouse.h
 .\usbh_usr.o: ..\lib\usb_host_lib\Class\HID\inc\usbh_hid_core.h
 .\usbh_usr.o: ..\lib\usb_host_lib\Core\inc\usbh_stdreq.h
