@@ -27,7 +27,6 @@
     <ToolsetName>ARM-ADS</ToolsetName>
     <TargetOption>
       <CLKADS>12000000</CLKADS>
-      <pArmCC>5050169::V5.05 update 2 (build 169)::ARMCC</pArmCC>
       <OPTTT>
         <gFlags>1</gFlags>
         <BeepAtEnd>1</BeepAtEnd>
@@ -83,52 +82,52 @@
         <Book>
           <Number>0</Number>
           <Title>MCBSTM32F400 Quick Start Guide (MCBSTM32F400)</Title>
-          <Path>E:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\MDK\Boards\Keil\MCBSTM32F400\Documentation\MCBSTM32F400_QSG.pdf</Path>
+          <Path>E:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\MDK\Boards\Keil\MCBSTM32F400\Documentation\MCBSTM32F400_QSG.pdf</Path>
         </Book>
         <Book>
           <Number>1</Number>
           <Title>User Manual (MCBSTM32F400)</Title>
-          <Path>E:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\MDK\Boards\Keil\MCBSTM32F400\Documentation\mcbstm32f200.chm</Path>
+          <Path>E:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\MDK\Boards\Keil\MCBSTM32F400\Documentation\mcbstm32f200.chm</Path>
         </Book>
         <Book>
           <Number>2</Number>
           <Title>Schematics V1.1 (MCBSTM32F400)</Title>
-          <Path>E:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\MDK\Boards\Keil\MCBSTM32F400\Documentation\mcbstm32f400-schematics.pdf</Path>
+          <Path>E:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\MDK\Boards\Keil\MCBSTM32F400\Documentation\mcbstm32f400-schematics.pdf</Path>
         </Book>
         <Book>
           <Number>3</Number>
           <Title>Schematics V1.2 (MCBSTM32F400)</Title>
-          <Path>E:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\MDK\Boards\Keil\MCBSTM32F400\Documentation\mcbstm32f400-schematics_V1.2.pdf</Path>
+          <Path>E:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\MDK\Boards\Keil\MCBSTM32F400\Documentation\mcbstm32f400-schematics_V1.2.pdf</Path>
         </Book>
         <Book>
           <Number>4</Number>
           <Title>STM32F4-Discovery Quick Start Guide (STM32F4-Discovery)</Title>
-          <Path>E:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\MDK\Boards\ST\STM32F4-Discovery\Documentation\32F4-DISCOVERY_QSG.pdf</Path>
+          <Path>E:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\MDK\Boards\ST\STM32F4-Discovery\Documentation\32F4-DISCOVERY_QSG.pdf</Path>
         </Book>
         <Book>
           <Number>5</Number>
           <Title>Getting Started (STM32F4-Discovery)</Title>
-          <Path>E:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\MDK\Boards\ST\STM32F4-Discovery\Documentation\DM00037368.pdf</Path>
+          <Path>E:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\MDK\Boards\ST\STM32F4-Discovery\Documentation\DM00037368.pdf</Path>
         </Book>
         <Book>
           <Number>6</Number>
           <Title>User Manual (STM32F4-Discovery)</Title>
-          <Path>E:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\MDK\Boards\ST\STM32F4-Discovery\Documentation\DM00039084.pdf</Path>
+          <Path>E:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\MDK\Boards\ST\STM32F4-Discovery\Documentation\DM00039084.pdf</Path>
         </Book>
         <Book>
           <Number>7</Number>
           <Title>Bill of Materials (STM32F4-Discovery)</Title>
-          <Path>E:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\MDK\Boards\ST\STM32F4-Discovery\Documentation\stm32f4discovery_bom.zip</Path>
+          <Path>E:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\MDK\Boards\ST\STM32F4-Discovery\Documentation\stm32f4discovery_bom.zip</Path>
         </Book>
         <Book>
           <Number>8</Number>
           <Title>Gerber Files (STM32F4-Discovery)</Title>
-          <Path>E:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\MDK\Boards\ST\STM32F4-Discovery\Documentation\stm32f4discovery_gerber.zip</Path>
+          <Path>E:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\MDK\Boards\ST\STM32F4-Discovery\Documentation\stm32f4discovery_gerber.zip</Path>
         </Book>
         <Book>
           <Number>9</Number>
           <Title>Schematics (STM32F4-Discovery)</Title>
-          <Path>E:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\MDK\Boards\ST\STM32F4-Discovery\Documentation\stm32f4discovery_sch.zip</Path>
+          <Path>E:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\MDK\Boards\ST\STM32F4-Discovery\Documentation\stm32f4discovery_sch.zip</Path>
         </Book>
         <Book>
           <Number>10</Number>
@@ -163,7 +162,8 @@
         <tRSysVw>1</tRSysVw>
         <sRunDeb>0</sRunDeb>
         <sLrtime>0</sLrtime>
-        <nTsel>11</nTsel>
+        <bEvRecOn>1</bEvRecOn>
+        <nTsel>5</nTsel>
         <sDll></sDll>
         <sDllPa></sDllPa>
         <sDlgDll></sDlgDll>
@@ -185,7 +185,7 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>ST-LINKIII-KEIL_SWO</Key>
-          <Name>-U33004800050000543931574E -O1231 -S3 -C0 -A0 -N00("ARM CoreSight SW-DP") -D00(2BA01477) -L00(0) -TO18 -TC10000000 -TP21 -TDS8004 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -FO31 -FD20000000 -FC1000 -FN1 -FF0STM32F4xx_512.FLM -FS08000000 -FL080000 -FP0($$Device:STM32F407VE$CMSIS\Flash\STM32F4xx_512.FLM)</Name>
+          <Name>-U550062001700003341574C4E -O1231 -S3 -C0 -A0 -N00("ARM CoreSight SW-DP") -D00(2BA01477) -L00(0) -TO18 -TC10000000 -TP21 -TDS8004 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -FO31 -FD20000000 -FC1000 -FN1 -FF0STM32F4xx_512.FLM -FS08000000 -FL080000 -FP0($$Device:STM32F407VE$CMSIS\Flash\STM32F4xx_512.FLM)</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -293,6 +293,17 @@
       <LintExecutable></LintExecutable>
       <LintConfigFile></LintConfigFile>
       <bLintAuto>0</bLintAuto>
+      <Lin2Executable></Lin2Executable>
+      <Lin2ConfigFile></Lin2ConfigFile>
+      <bLin2Auto>0</bLin2Auto>
+      <bAutoGenD>0</bAutoGenD>
+      <bAuto2GenD>0</bAuto2GenD>
+      <DebugDescription>
+        <Enable>0</Enable>
+        <EnableLog>0</EnableLog>
+        <Protocol>2</Protocol>
+        <DbgClock>10000000</DbgClock>
+      </DebugDescription>
     </TargetOption>
   </Target>
 
@@ -307,7 +318,6 @@
       <FileNumber>1</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\nrf24l01.c</PathWithFileName>
@@ -320,7 +330,6 @@
       <FileNumber>2</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\nrf24l01_drv.c</PathWithFileName>
@@ -333,7 +342,6 @@
       <FileNumber>3</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\packet.c</PathWithFileName>
@@ -346,7 +354,6 @@
       <FileNumber>4</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\param.c</PathWithFileName>
@@ -359,7 +366,6 @@
       <FileNumber>5</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\pid.c</PathWithFileName>
@@ -372,7 +378,6 @@
       <FileNumber>6</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\robot.c</PathWithFileName>
@@ -385,7 +390,6 @@
       <FileNumber>7</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\stm32f4xx_it.c</PathWithFileName>
@@ -398,7 +402,6 @@
       <FileNumber>8</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\system_stm32f4xx.c</PathWithFileName>
@@ -411,7 +414,6 @@
       <FileNumber>9</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\timer.c</PathWithFileName>
@@ -424,7 +426,6 @@
       <FileNumber>10</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\typedef.c</PathWithFileName>
@@ -437,7 +438,6 @@
       <FileNumber>11</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\Usart_ble.c</PathWithFileName>
@@ -450,7 +450,6 @@
       <FileNumber>12</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\action.c</PathWithFileName>
@@ -463,7 +462,6 @@
       <FileNumber>13</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\comm.c</PathWithFileName>
@@ -476,7 +474,6 @@
       <FileNumber>14</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\Cpuid_des.c</PathWithFileName>
@@ -489,7 +486,6 @@
       <FileNumber>15</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\error_event.c</PathWithFileName>
@@ -502,7 +498,6 @@
       <FileNumber>16</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\factory.c</PathWithFileName>
@@ -515,7 +510,6 @@
       <FileNumber>17</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\gpio.c</PathWithFileName>
@@ -528,7 +522,6 @@
       <FileNumber>18</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\Hm_bluetooth.c</PathWithFileName>
@@ -541,7 +534,6 @@
       <FileNumber>19</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\i2c.c</PathWithFileName>
@@ -554,7 +546,6 @@
       <FileNumber>20</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\init.c</PathWithFileName>
@@ -567,7 +558,6 @@
       <FileNumber>21</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\main.c</PathWithFileName>
@@ -580,7 +570,6 @@
       <FileNumber>22</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\misc.c</PathWithFileName>
@@ -593,7 +582,6 @@
       <FileNumber>23</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\motor.c</PathWithFileName>
@@ -606,7 +594,6 @@
       <FileNumber>24</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\MPU6050_driver.c</PathWithFileName>
@@ -619,7 +606,6 @@
       <FileNumber>25</FileNumber>
       <FileType>2</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\startup_stm32f4xx.s</PathWithFileName>
@@ -632,7 +618,6 @@
       <FileNumber>26</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\usb_user\usb_bsp.c</PathWithFileName>
@@ -645,7 +630,6 @@
       <FileNumber>27</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\usb_user\usbd_cdc_vcp.c</PathWithFileName>
@@ -658,7 +642,6 @@
       <FileNumber>28</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\usb_user\usbd_desc.c</PathWithFileName>
@@ -671,7 +654,6 @@
       <FileNumber>29</FileNumber>
       <FileType>1</FileType>
       <tvExp>1</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\usb_user\usbd_usr.c</PathWithFileName>
@@ -684,7 +666,6 @@
       <FileNumber>30</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\usb_user\usbh_usr.c</PathWithFileName>
@@ -705,7 +686,6 @@
       <FileNumber>31</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_adc.c</PathWithFileName>
@@ -718,7 +698,6 @@
       <FileNumber>32</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_can.c</PathWithFileName>
@@ -731,7 +710,6 @@
       <FileNumber>33</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_crc.c</PathWithFileName>
@@ -744,7 +722,6 @@
       <FileNumber>34</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_cryp.c</PathWithFileName>
@@ -757,7 +734,6 @@
       <FileNumber>35</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_cryp_aes.c</PathWithFileName>
@@ -770,7 +746,6 @@
       <FileNumber>36</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_cryp_des.c</PathWithFileName>
@@ -783,7 +758,6 @@
       <FileNumber>37</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_cryp_tdes.c</PathWithFileName>
@@ -796,7 +770,6 @@
       <FileNumber>38</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_dac.c</PathWithFileName>
@@ -809,7 +782,6 @@
       <FileNumber>39</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_dbgmcu.c</PathWithFileName>
@@ -822,7 +794,6 @@
       <FileNumber>40</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_dcmi.c</PathWithFileName>
@@ -835,7 +806,6 @@
       <FileNumber>41</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_dma.c</PathWithFileName>
@@ -848,7 +818,6 @@
       <FileNumber>42</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_exti.c</PathWithFileName>
@@ -861,7 +830,6 @@
       <FileNumber>43</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_flash.c</PathWithFileName>
@@ -874,7 +842,6 @@
       <FileNumber>44</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_fsmc.c</PathWithFileName>
@@ -887,7 +854,6 @@
       <FileNumber>45</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_gpio.c</PathWithFileName>
@@ -900,7 +866,6 @@
       <FileNumber>46</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_hash.c</PathWithFileName>
@@ -913,7 +878,6 @@
       <FileNumber>47</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_hash_md5.c</PathWithFileName>
@@ -926,7 +890,6 @@
       <FileNumber>48</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_hash_sha1.c</PathWithFileName>
@@ -939,7 +902,6 @@
       <FileNumber>49</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_i2c.c</PathWithFileName>
@@ -952,7 +914,6 @@
       <FileNumber>50</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_iwdg.c</PathWithFileName>
@@ -965,7 +926,6 @@
       <FileNumber>51</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_misc.c</PathWithFileName>
@@ -978,7 +938,6 @@
       <FileNumber>52</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_pwr.c</PathWithFileName>
@@ -991,7 +950,6 @@
       <FileNumber>53</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_rcc.c</PathWithFileName>
@@ -1004,7 +962,6 @@
       <FileNumber>54</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_rng.c</PathWithFileName>
@@ -1017,7 +974,6 @@
       <FileNumber>55</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_rtc.c</PathWithFileName>
@@ -1030,7 +986,6 @@
       <FileNumber>56</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_sdio.c</PathWithFileName>
@@ -1043,7 +998,6 @@
       <FileNumber>57</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_spi.c</PathWithFileName>
@@ -1056,7 +1010,6 @@
       <FileNumber>58</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_syscfg.c</PathWithFileName>
@@ -1069,7 +1022,6 @@
       <FileNumber>59</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_tim.c</PathWithFileName>
@@ -1082,7 +1034,6 @@
       <FileNumber>60</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_usart.c</PathWithFileName>
@@ -1095,7 +1046,6 @@
       <FileNumber>61</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\src\stm32f4xx_wwdg.c</PathWithFileName>
@@ -1116,7 +1066,6 @@
       <FileNumber>62</FileNumber>
       <FileType>4</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\CMSIS\arm_cortexM4lf_math.lib</PathWithFileName>
@@ -1137,7 +1086,6 @@
       <FileNumber>63</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\usb_host_lib\Core\src\usbh_core.c</PathWithFileName>
@@ -1150,7 +1098,6 @@
       <FileNumber>64</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\usb_host_lib\Core\src\usbh_hcs.c</PathWithFileName>
@@ -1163,7 +1110,6 @@
       <FileNumber>65</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\usb_host_lib\Core\src\usbh_ioreq.c</PathWithFileName>
@@ -1176,7 +1122,6 @@
       <FileNumber>66</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\usb_host_lib\Core\src\usbh_stdreq.c</PathWithFileName>
@@ -1189,7 +1134,6 @@
       <FileNumber>67</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\usb_host_lib\Class\HID\src\usbh_hid_core.c</PathWithFileName>
@@ -1202,7 +1146,6 @@
       <FileNumber>68</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\usb_host_lib\Class\HID\src\Usbh_hid_joystick.c</PathWithFileName>
@@ -1215,7 +1158,6 @@
       <FileNumber>69</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\usb_host_lib\Class\HID\src\usbh_hid_keybd.c</PathWithFileName>
@@ -1228,7 +1170,6 @@
       <FileNumber>70</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\usb_host_lib\Class\HID\src\usbh_hid_mouse.c</PathWithFileName>
@@ -1241,7 +1182,6 @@
       <FileNumber>71</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\usb_otg_driver\src\usb_core.c</PathWithFileName>
@@ -1254,7 +1194,6 @@
       <FileNumber>72</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\usb_otg_driver\src\usb_hcd.c</PathWithFileName>
@@ -1267,7 +1206,6 @@
       <FileNumber>73</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\usb_otg_driver\src\usb_hcd_int.c</PathWithFileName>
@@ -1288,7 +1226,6 @@
       <FileNumber>74</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\usb_device_lib\Core\src\usbd_core.c</PathWithFileName>
@@ -1301,7 +1238,6 @@
       <FileNumber>75</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\usb_device_lib\Core\src\usbd_ioreq.c</PathWithFileName>
@@ -1314,7 +1250,6 @@
       <FileNumber>76</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\usb_device_lib\Core\src\usbd_req.c</PathWithFileName>
@@ -1327,7 +1262,6 @@
       <FileNumber>77</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\usb_device_lib\Class\cdc\src\usbd_cdc_core.c</PathWithFileName>
@@ -1340,7 +1274,6 @@
       <FileNumber>78</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\usb_device_lib\Class\cdc\src\usbd_cdc_if_template.c</PathWithFileName>
@@ -1353,7 +1286,6 @@
       <FileNumber>79</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\usb_otg_driver\src\usb_dcd.c</PathWithFileName>
@@ -1366,7 +1298,6 @@
       <FileNumber>80</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\lib\usb_otg_driver\src\usb_dcd_int.c</PathWithFileName>

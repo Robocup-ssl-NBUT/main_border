@@ -1,4 +1,4 @@
---cpu=Cortex-M4.fp
+--cpu Cortex-M4.fp
 ".\nrf24l01.o"
 ".\nrf24l01_drv.o"
 ".\packet.o"
@@ -79,7 +79,7 @@
 ".\usbd_cdc_if_template.o"
 ".\usb_dcd.o"
 ".\usb_dcd_int.o"
---strict --scatter ".\SSL_Ctrl_v13.sct"
+--library_type=microlib --strict --scatter ".\SSL_Ctrl_v13.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\SSL_Ctrl_v13.map" -o .\SSL_Ctrl_v13.axf
