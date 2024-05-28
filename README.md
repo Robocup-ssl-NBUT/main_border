@@ -8,7 +8,7 @@
 
 ​		3.MDK-Keil5软件及stm32f4xx芯片库的安装：[Windows10下MDK5（Keil5）及stm32pack的安装教程_mdk 510-CSDN博客](https://blog.csdn.net/qq_45264808/article/details/108899662?ops_request_misc=%7B%22request%5Fid%22%3A%22171688395716777224422395%22%2C%22scm%22%3A%2220140713.130102334..%22%7D&request_id=171688395716777224422395&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-108899662-null-null.142^v100^pc_search_result_base3&utm_term=windows下载keil5&spm=1018.2226.3001.4187)
 
-		百度网盘：链接：https://pan.baidu.com/s/1BNT5Nr-DY_zAlAJk9doANQ 提取码：ssvg
+		百度网盘：链接：https://pan.baidu.com/s/1YvAI46W11vh2upXxcAD_9g 提取码：bv3p
 
 ​		4.嵌入式源码：
 
