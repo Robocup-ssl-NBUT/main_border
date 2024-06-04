@@ -12,9 +12,9 @@
 
 ​		4.嵌入式源码：
 
-​			github地址：https://github.com/Robocup-ssl-NBUT/main_border.git
+​			github地址：https://github.com/Robocup-ssl-NBUT/main_board.git
 
-​			gitee地址：https://gitee.com/fan-jiaming123/main_border.git
+​			gitee地址：https://gitee.com/fan-jiaming123/main_board.git
 
 ​		5.STM32 ST-LINK Utility软件----用于解除车上的烧写代码的保护机制
 
